@@ -1,0 +1,31 @@
+{
+    "variables": [
+        {
+            "contractName": "AnyswapV4Router",
+            "varName": "_oldMPC",
+            "varType": "address",
+            "varBytes": 20,
+            "varValue": null,
+            "varSlot": 0,
+            "varOffset": 0
+        },
+        {
+            "contractName": "AnyswapV4Router",
+            "varName": "_newMPC",
+            "varType": "address",
+            "varBytes": 20,
+            "varValue": "0x8b44a687224496276811555efa3f2d0acd667a72",
+            "varSlot": 1,
+            "varOffset": 0
+        },
+        {
+            "contractName": "AnyswapV4Router",
+            "varName": "_newMPCEffectiveTime",
+            "varType": "uint256",
+            "varBytes": 32,
+            "varValue": 1624013046,
+            "varSlot": 2,
+            "varOffset": 0
+        }
+    ]
+}
