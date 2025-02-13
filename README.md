@@ -1,2 +1,2 @@
-# InvPurge
-InvPurge refines, prunes, and optimizes invariants from various smart contract analysis tools, enhancing the accuracy and efficiency of smart contract verification and repair.
+# KIWI
+ KIWI denoises invariants to prepare them for real-world analysis and repair tasks. 
