@@ -83,3 +83,16 @@ def parse_original(input: dict, list):
       for entry in preds:
          new_list.append(input[entry])
    return new_list
+
+
+
+if __name__ == "__main__":
+    cluster = [
+        "ori(_balances[msg.sender]) >= ori(_balances[recipient])",
+        "ori(_balances[msg.sender]) > ori(_balances[recipient])",
+        "ori(_balances[msg.sender]) != ori(_balances[recipient])"
+    ]
+
+    parsed_cluster = parse_daikon_list(cluster)
+    for parsed in parsed_cluster:
+        print(parsed[2])  # Print the parsed predicate (Solidity-compatible)

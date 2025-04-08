@@ -1,0 +1,210 @@
+[
+    {
+        "before_preds": [
+            "ori(Sum(_balances[...])) > 0",
+            "ori(Sum(_balances[...])) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "ori(Sum(_balances[...])) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_decimals) > 0",
+            "ori(_decimals) == 18"
+        ],
+        "after_preds": [
+            "ori(_decimals) == 18"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_totalSupply) > 0",
+            "ori(_totalSupply) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) > 0",
+            "Sum(_balances[...]) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "_decimals > 0",
+            "_decimals == 18"
+        ],
+        "after_preds": [
+            "_decimals == 18"
+        ]
+    },
+    {
+        "before_preds": [
+            "_totalSupply > 0",
+            "_totalSupply == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "_totalSupply == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) == ori(Sum(_balances[...]))",
+            "Sum(_balances[...]) >= ori(Sum(_balances[...]))",
+            "Sum(_balances[...]) <= ori(Sum(_balances[...]))"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == ori(Sum(_balances[...]))"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_decimals) == _decimals",
+            "ori(_decimals) >= _decimals",
+            "ori(_decimals) <= _decimals"
+        ],
+        "after_preds": [
+            "ori(_decimals) == _decimals"
+        ]
+    },
+    {
+        "before_preds": [
+            "_totalSupply == ori(_totalSupply)",
+            "_totalSupply >= ori(_totalSupply)",
+            "_totalSupply <= ori(_totalSupply)"
+        ],
+        "after_preds": [
+            "_totalSupply == ori(_totalSupply)"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_totalSupply) > 0",
+            "ori(_totalSupply) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(Sum(_balances[...])) > 0",
+            "ori(Sum(_balances[...])) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "ori(Sum(_balances[...])) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_decimals) > 0",
+            "ori(_decimals) == 18"
+        ],
+        "after_preds": [
+            "ori(_decimals) == 18"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_totalSupply) == ori(Sum(_balances[...]))",
+            "ori(_totalSupply) >= ori(Sum(_balances[...]))",
+            "ori(_totalSupply) <= ori(Sum(_balances[...]))"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) == ori(Sum(_balances[...]))"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) > 0",
+            "Sum(_balances[...]) == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "_decimals > 0",
+            "_decimals == 18"
+        ],
+        "after_preds": [
+            "_decimals == 18"
+        ]
+    },
+    {
+        "before_preds": [
+            "_totalSupply > 0",
+            "_totalSupply == 10000000000000000000000000000"
+        ],
+        "after_preds": [
+            "_totalSupply == 10000000000000000000000000000"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) == ori(_totalSupply)",
+            "Sum(_balances[...]) >= ori(_totalSupply)",
+            "Sum(_balances[...]) <= ori(_totalSupply)"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == ori(_totalSupply)"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) == ori(Sum(_balances[...]))",
+            "Sum(_balances[...]) >= ori(Sum(_balances[...]))",
+            "Sum(_balances[...]) <= ori(Sum(_balances[...]))"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == ori(Sum(_balances[...]))"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) == _totalSupply",
+            "Sum(_balances[...]) >= _totalSupply",
+            "Sum(_balances[...]) <= _totalSupply"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) == _totalSupply"
+        ]
+    },
+    {
+        "before_preds": [
+            "_decimals == ori(_decimals)",
+            "_decimals >= ori(_decimals)",
+            "_decimals <= ori(_decimals)"
+        ],
+        "after_preds": [
+            "_decimals == ori(_decimals)"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_totalSupply) == _totalSupply",
+            "ori(_totalSupply) >= _totalSupply",
+            "ori(_totalSupply) <= _totalSupply"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) == _totalSupply"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(Sum(_balances[...])) == _totalSupply",
+            "ori(Sum(_balances[...])) >= _totalSupply",
+            "ori(Sum(_balances[...])) <= _totalSupply"
+        ],
+        "after_preds": [
+            "ori(Sum(_balances[...])) == _totalSupply"
+        ]
+    }
+]

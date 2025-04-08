@@ -1,0 +1,202 @@
+[
+    {
+        "before_preds": [
+            "ori(_totalSupply) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_decimals) one of [5]"
+        ],
+        "after_preds": [
+            "ori(_decimals) one of [5]"
+        ]
+    },
+    {
+        "before_preds": [
+            "msg.value == 0"
+        ],
+        "after_preds": [
+            "msg.value == 0"
+        ]
+    },
+    {
+        "before_preds": [
+            "msg.value one of [0]"
+        ],
+        "after_preds": [
+            "msg.value one of [0]"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(Sum(_balances[...])) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "ori(Sum(_balances[...])) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "to != 0"
+        ],
+        "after_preds": [
+            "to != 0"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_paused) == false"
+        ],
+        "after_preds": [
+            "ori(_paused) == false"
+        ]
+    },
+    {
+        "before_preds": [
+            "value > 0"
+        ],
+        "after_preds": [
+            "value > 0"
+        ]
+    },
+    {
+        "before_preds": [
+            "msg.sender != 0"
+        ],
+        "after_preds": [
+            "msg.sender != 0"
+        ]
+    },
+    {
+        "before_preds": [
+            "_decimals one of [5]"
+        ],
+        "after_preds": [
+            "_decimals one of [5]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_paused == false"
+        ],
+        "after_preds": [
+            "_paused == false"
+        ]
+    },
+    {
+        "before_preds": [
+            "elem of _balances[...] is one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "elem of _balances[...] is one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_totalSupply one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "_totalSupply one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_paused == ori(_paused)"
+        ],
+        "after_preds": [
+            "_paused == ori(_paused)"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_paused) == false"
+        ],
+        "after_preds": [
+            "ori(_paused) == false"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_totalSupply) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "ori(_totalSupply) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(Sum(_balances[...])) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "ori(Sum(_balances[...])) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_decimals) one of [5]"
+        ],
+        "after_preds": [
+            "ori(_decimals) one of [5]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_totalSupply one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "_totalSupply one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "elem of _balances[...] is one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "elem of _balances[...] is one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_decimals one of [5]"
+        ],
+        "after_preds": [
+            "_decimals one of [5]"
+        ]
+    },
+    {
+        "before_preds": [
+            "_paused == false"
+        ],
+        "after_preds": [
+            "_paused == false"
+        ]
+    },
+    {
+        "before_preds": [
+            "Sum(_balances[...]) one of [1000000000000000]"
+        ],
+        "after_preds": [
+            "Sum(_balances[...]) one of [1000000000000000]"
+        ]
+    },
+    {
+        "before_preds": [
+            "ori(_paused) == _paused"
+        ],
+        "after_preds": [
+            "ori(_paused) == _paused"
+        ]
+    }
+]

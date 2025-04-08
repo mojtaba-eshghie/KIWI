@@ -284,7 +284,7 @@ def parse_daikon(a:str):
 
    return (left+ " " + parsed_right, original,  f"{left} {delimeter} {right}")
 
-
+ 
 def print_list(list):
    for x in list:
       print(x)
